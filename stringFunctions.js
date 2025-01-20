@@ -1,40 +1,44 @@
-function getStringLength(str) {
+function getStringLength(string) {
+    return string.length;
     
 }
 
-function toUpperCase(str) {
+function toUpperCase(string) {
+    return string.toUpperCase();
+}
+
+function toLowerCase(string) {
+    return string.toLowerCase();
+}
+
+function includesSubstring(string, substring) {
+    return string.includes(substring);
+}
+
+function startsWithPrefix(string, prefix) {
+    return string.startsWith(prefix);
+}
+
+function endsWithSuffix(string, suffix) {
+    return string.endsWith(suffix);
     
 }
 
-function toLowerCase(str) {
+function repeatString(string, count) {
+    return string.repeat(count);
+}
+
+function replaceSubstring(string, oldSub, newSub) {
+    return string.replace(oldSub, newSub);
     
 }
 
-function includesSubstring(str, substring) {
-    
-}
-
-function startsWithPrefix(str, prefix) {
-    
-}
-
-function endsWithSuffix(str, suffix) {
-    
-}
-
-function repeatString(str, count) {
-    
-}
-
-function replaceSubstring(str, oldSub, newSub) {
-    
-}
-
-function trimString(str) {
-    
+function trimString(string) {
+    return string.trim();
 }
 
 function concatenateStrings(str1, str2) {
+    return str1 + str2;
     
 }
 
@@ -48,5 +52,6 @@ module.exports = {
     repeatString,
     replaceSubstring,
     trimString,
-    concatenateStrings
+    concatenateStrings,
+
 };

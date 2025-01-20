@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "bun test 2>&1 | tee outfile.txt && bun upload.ts"
+    "test": "bun test"
   },
   "keywords": [],
   "author": "",
